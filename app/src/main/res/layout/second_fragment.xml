@@ -4,16 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context=".FragmentTwo">
+    android:padding="16dp"
+    tools:context=".SecondFragment">
 
 
     <TextView
-        android:id="@+id/text2"
+        android:id="@+id/textId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:text="@string/hello_fragment" />
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
 </LinearLayout>
